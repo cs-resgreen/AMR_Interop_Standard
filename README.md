@@ -2,7 +2,7 @@
 
 TL:DR; This is an MQTT revision of the MRAMRIS(See name above) but with an MQTT backbone. This is a tweak on the original source here: https://github.com/MassRobotics-AMR/AMR_Interop_Standard/pull/10
 
-This is a revision of the Mass Robotics Interop Standards MQTT publisher and subscriber project. The main changes are adding another level of nesting to the statusReport topics so it is nested under its UUID. This allows us to have multiple topics per different devices without needed to parse lots of unnecessary messages for other devices that also have a statusReport. the # symbol is a wildcard allowed by mosquito client for Subscribers only. Use this carefully!
+This is a revision of the Mass Robotics Interop Standards MQTT publisher and subscriber project. The main changes are adding another level of nesting to the statusReport topics so it is nested under its UUID. This allows us to have multiple topics per different devices without needing to parse lots of unnecessary messages for other devices that also have a statusReport. the # symbol is a wildcard allowed by mosquito client for Subscribers only. Use this carefully!
 
 [![MassRobotics AMR Interop](https://www.massrobotics.org/wp-content/uploads/2015/05/AMR_interop_MR-logo-scaled.jpg)](https://www.massrobotics.org/project/amrinteroperability/)
 
