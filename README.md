@@ -1,4 +1,6 @@
-# MassRobotics Autonomous Mobile Robot Interoperability Standard
+# MassRobotics Autonomous Mobile Robot Interoperability Standard - MQTT Revision
+
+TL:DR; This is an MQTT revision of the MRAMRIS(See name above) but with an MQTT backbone. This is a tweak on the original source here: https://github.com/MassRobotics-AMR/AMR_Interop_Standard/pull/10
 
 [![MassRobotics AMR Interop](https://www.massrobotics.org/wp-content/uploads/2015/05/AMR_interop_MR-logo-scaled.jpg)](https://www.massrobotics.org/project/amrinteroperability/)
 
